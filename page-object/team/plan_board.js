@@ -12,7 +12,7 @@ fixture `Objectives`
     })
 
 test('Create a New Work Item', async t =>{
-    const createWorkItem = Selector('span.css-u6rgtt')
+    const createWorkItem = Selector('span.css-1xssqnp').nth(0)
     const nameEditor = Selector('.pic-EditorsStringEditor')
     const saveButton = Selector('.pic-QuickDetailEntityFooter-saveButton')
 
